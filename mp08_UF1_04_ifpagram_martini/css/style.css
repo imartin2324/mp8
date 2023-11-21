@@ -1,0 +1,152 @@
+.menu {
+    height: 100px;
+    overflow: hidden;
+}
+.contactes {
+    height: 195px;
+}
+.contingut {
+    height: 1800px;
+    width: 1665px;
+    margin: auto;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 200px;
+}
+ul {
+    width: 1060px;
+    font-size: 15px;
+    margin: auto;
+    padding: 36px;
+}
+#contacte01 {
+    background-image: url(../img/badbu.jpg);
+}
+#contacte02 {
+    background-image: url(../img/has.jpeg);
+}
+#contacte03 {
+    background-image: url(../img/messi.jpeg);
+}
+#contacte04 {
+    background-image: url(../img/motos.webp);
+}
+#contacte05 {
+    background-image: url(../img/abascal.jpeg);
+}
+#contacte06 {
+    background-image: url(../img/rubi.jpeg);
+}
+#contacte07 {
+    background-image: url(../img/teba.jpeg);
+}
+#contacte08 {
+    background-image: url(../img/realdog.jpg);
+}
+#contacte09 {
+    background-image: url(../img/joaqui.jpeg);
+}
+#contacte10 {
+    background-image: url(../img/chenchi.jpeg);
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    background-size: 100%;
+    background-image: url(../img/ifpa.png);
+    float: left;
+    background-repeat: no-repeat;
+    padding: 0 10px;
+    margin: 10px 10px;
+}
+.user {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-size: 100%;
+    background-image: url(../img/badbu.jpg);
+    float: right;
+}
+.mensajes {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-size: 100%;
+    background-image: url(../img/mensaj.png);
+    float: right;
+}
+.nav {
+    width: 336px;
+    height: 50px;
+    margin: auto;
+}
+.nav ul {
+    height: 50px;
+    width: 220px;
+    padding: 0;
+    margin: auto;
+}
+.nav ul li {
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+}
+.home {
+    background-image: url(../img/home.png);
+}
+.search {
+    background-image: url(../img/se.png);
+}
+.tv {
+    background-image: url(../img/liv.png);
+}
+.like {
+    background-image: url(../img/lik.png);
+}
+.post {
+    width: 540px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.post img {
+    width: 535px;
+}
+.post div {
+    width: 100px;
+    margin: 5px;
+}
+.post .postejador {
+    float: left;
+}
+.post .postejador img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.post .reaccions {
+    float: right;
+}
+.post h5 {
+    height: 30px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.post h6 {
+    height: 20px;
+}

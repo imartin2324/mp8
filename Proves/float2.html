@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float2</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana;
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+        div {
+            background-color: whitesmoke;
+            margin: 0 0;
+            padding: 0.5%;
+        }
+        .cap {
+            background-color: blue;
+            text-align: center;
+            padding: 2%;
+        }
+        .menu {
+            background-color: steelblue;
+            float: left;
+            width: 24%;
+        }
+        .contingut {
+            float: left;
+            width: 49%;
+            overflow: scroll;
+            height: 840px;
+        }
+        .lateral {
+            background-color: steelblue;
+            float: right;
+            width: 24%;
+        }
+        .peu {
+            background-color: blue;
+            clear: left;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        *, *:after, *:before {
+            margin: 0;
+            padding: 0;
+        }
+
+        body div {
+
+        }
+
+        div > .classe {
+
+        }
+
+        .primernivell {
+            background: skyblue;
+            color: white;
+            margin: 0.25rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+
+        .navegacio {
+            width: 60%;
+            margin: auto;
+        }
+
+        .primernivell:hover {
+            background: steelblue;
+        }
+
+        .primernivell:hover > .secundari{
+            display: block;
+        }
+
+        .secundari {
+            display: block;
+            background: green;
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+            display: none;
+        }
+
+        .segonnivell {
+            background: skyblue;
+            display: block;
+            top: 2rem;
+            font-size: 0.85rem;
+            height: 2rem;
+            border-bottom: solid white 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cap">
+        <h1>Frankbook</h1>
+        <ul class="navegacio">
+            <li class="primernivell">Opció 1
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 2
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 3
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 4
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+            <li class="primernivell">Opció 5
+                <ul class="secundari">
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                    <li class="segonnivell">Sub-opció</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <h2>Home</h2>
+        <ul>
+            <li><a href="#Post1">Entrada 1</a></li>
+            <li><a href="#Post2">Entrada 2</a></li>
+            <li><a href="#Post3">Entrada 3</a></li>
+            <li><a href="#Post4">Entrada 4</a></li>
+            <li><a href="#Post5">Entrada 5</a></li>
+            <li><a href="#Post6">Entrada 6</a></li>
+            <li><a href="#Post7">Entrada 7</a></li>
+            <li><a href="#Post8">Entrada 8</a></li>
+        </ul>
+    </div>
+    <div class="contingut">
+        <h2>Timeline</h2>
+        <h3 id="Post1">Post 1</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat saepe, qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut, harum placeat enim facilis ea iure cupiditate ratione voluptates consectetur praesentium laudantium laborum ipsum culpa possimus est quas. Quo nisi voluptatum modi quaerat?
+        </p>
+        <h3 id="Post2">Post 2</h3>
+        <p>
+            Lorem qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut, harum placeat enim facilis ea iure cupiditate ratione voluptates consectetur praesentium laudantium laborum ipsum culpa possimus est quas.
+        </p>
+        <h3 id="Post3">Post 3</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat saepe, qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut, harum placeat enim facilis ea iure cupiditate ratione voluptates consectetur praesentium laudantium laborum ipsum culpa possimus est quas. Quo nisi voluptatum modi 
+        </p>
+        <h3 id="Post4">Post 4</h3>
+        <p>
+            Lorem ipsum  amet consectetur adipisicing elit. Placeat saepe, qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut, harum placeat enim facilis ea iure cupiditate ratione voluptates consectetur praesentium laudantium laborum ipsum culpa possimus est quas. Quo nisi voluptatum modi quaerat
+        </p>
+        <h3 id="Post5">Post 5</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat saepe, qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut
+        </p>
+        <h3 id="Post6">Post 6</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat saepe, qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut
+        </p>
+        <h3 id="Post7">Post 7</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat saepe, qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut
+        </p>
+        <h3 id="Post8">Post 8</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat saepe, qui et architecto explicabo maxime voluptate magni possimus necessitatibus minima. Quidem modi obcaecati impedit voluptas quis, aspernatur laudantium vero? Aliquid.
+            Similique quasi provident ullam rerum iusto, aut
+        </p>
+    </div>
+    <div class="lateral">
+        <h2>Contacte</h2>
+    </div>
+    <div class="peu">Lorem ipsum dolor sit amet consectetur</div>
+</body>
+</html>

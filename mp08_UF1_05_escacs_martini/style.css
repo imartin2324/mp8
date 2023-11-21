@@ -1,0 +1,57 @@
+.taulell{
+    width: 800px;
+    height: 800px;
+    background-color: orange;
+    margin: 0 auto;
+    border: green 10px solid;
+}
+
+.casella{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    background-image: linear-gradient(45deg, burlywood, yellow);
+    float: left;
+}
+
+.filera:nth-child(2n+1) .casella:nth-child(2n) {
+    background-image: linear-gradient(45deg, lightgreen, lightseagreen);
+
+}
+
+.filera:nth-child(2n) .casella:nth-child(2n+1) {
+    background-image: linear-gradient(45deg, lightgreen, lightseagreen);
+}
+
+b {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    background-image: radial-gradient(circle at -20% -20%, darkgreen, green);
+    display: block;
+    margin: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+b:hover {
+    position: relative;
+    bottom: -100px;
+    transition: all;
+}
+
+.filera:nth-child(n+3) b{
+    display: none;
+}
+
+.filera:nth-child(n+7) b{
+    display: block;
+    background-color: peru;
+    background-image: radial-gradient(circle at -20% -20%, peru, gold);
+}
+
+.filera:nth-child(n+7) b:hover{
+    position: relative;
+    bottom: 100px;
+
+}
