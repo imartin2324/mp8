@@ -1,0 +1,128 @@
+*{
+    font-family: sans-serif;
+}
+
+.menu{
+    width: 100%;
+    height: 3.125rem;
+    background-color: black;
+    margin-left: -0.625rem;
+    margin-top: -0.625rem;
+}
+
+.menu img{
+    margin-left: 1.25rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.3125rem;
+}
+
+ul{
+    margin-top: -1.688rem;
+    margin-left: 1.875rem;
+}
+
+li{
+    display: inline;
+    padding: 0.3125rem;
+}
+
+.menesquerra{
+    margin-left: 4.375rem;
+}
+
+.mendreta{
+    margin-left: 118.75rem;
+    margin-top: -2.188rem;
+}
+
+a{
+    text-decoration: none;
+    color: #CCC;
+}
+
+a:hover{
+    color: #FFF;
+    text-decoration: underline;
+    text-underline-offset: 0.125rem;
+}
+
+.peli {
+    width: 10.9375rem;
+}
+.peli img {
+    width: 10.9375rem;
+}
+
+.primera {
+    float: left;
+    margin: 0.3125rem;
+}
+.segona {
+    float: left;
+    margin: 0.3125rem;
+}
+.tercera {
+    float: left;
+    margin: 0.3125rem;
+}
+.quarta {
+    float: left;
+    margin: 0.3125rem;
+} 
+.cinc {
+    float: left;
+    margin: 0.3125rem;
+}
+.sis {
+    float: left;
+    margin: 0.3125rem;
+} 
+.set {
+    float: left;
+    margin: 0.3125rem;
+}
+.vuit {
+    float: left;
+    margin: 0.3125rem;
+} 
+.nou {
+    float: left;
+    margin: 0.3125rem;
+}
+.deu {
+    float: left;
+    margin: 0.3125rem;
+} 
+.once {
+    float: left;
+    margin: 0.3125rem;
+}
+.dotze {
+    float: left;
+    margin: 0.3125rem;
+} 
+.tretze {
+    float: left;
+    margin: 0.3125rem;
+}
+.catorce {
+    float: left;
+    margin: 0.3125rem;
+} 
+.quince {
+    float: left;
+    margin: 0.3125rem;
+}
+
+h1 {
+    color: #FFF;
+}
+
+.pelis{
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 125rem;
+    margin-left: -0.625rem;
+    margin-top: -1.375rem;
+}
+

@@ -1,0 +1,144 @@
+body {
+    background-image: url(img/cesped.jpeg);
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+ul a {
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 5%;
+    background: #02735e;
+    float: left;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+li {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    margin-top: 8rem;
+    color: white;
+}
+
+.primera{
+    background-image: url(img/messi.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.primera:hover {
+    background-image: url(img/primera.png);
+} 
+
+.segona{
+    background-image: url(img/zidane.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.segona:hover {
+    background-image: url(img/segona.png);
+} 
+
+.tercer{
+    background-image: url(img/ronaldinho-tongue.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tercer:hover {
+    background-image: url(img/tercera.png);
+} 
+
+.quart{
+    background-image: url(img/maradona.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quart:hover {
+    background-image: url(img/cuarta.png);
+}
+
+.cinque{
+    background-image: url(img/iniesta.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cinque:hover {
+    background-image: url(img/cinque.png);
+} 
+
+.sise{
+    background-image: url(img/suarez.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sise:hover {
+    background-image: url(img/sise.png);
+} 
+
+.sete{
+    background-image: url(img/kun.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sete:hover {
+    background-image: url(img/sete.png);
+} 
+
+.vuite{
+    background-image: url(img/suuu.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.vuite:hover {
+    background-image: url(img/vuite.png);
+} 
+
+.nove{
+    background-image: url(img/jame.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nove:hover {
+    background-image: url(img/nove.png);
+} 
+
+.deu{
+    background-image: url(img/ney.gif);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.deu:hover {
+    background-image: url(img/deu.png);
+} 
