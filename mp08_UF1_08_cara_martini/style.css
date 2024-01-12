@@ -4,7 +4,6 @@
 body {
     background-color: lightsteelblue;
 }
-
 .yo {
     width: 470px;
     height: 650px;
@@ -12,13 +11,11 @@ body {
     border-radius: 300px 300px 350px 350px;
     margin: 100px auto;
 }
-
 .pel {
     height: 200px;
     background-color: rgb(52, 41, 32);
     border-radius: 150px 150px 0px 0px;
 }
-
 .pel2, .pel3, .pel4, .pel5, .pel6 {
     width: 200px;
     height: 90px;
@@ -28,24 +25,19 @@ body {
     top: -25px;
     position: absolute;
 }
-
 .pel3 {
     left: 166px;
 }
-
 .pel4 {
     left: 230px;
-    transform: scaleX(-1); 
+    transform: scaleX(-1);
 }
-
 .pel5 {
     left: 90px;
 }
-
 .pel6 {
     left: 230px;
 }
-
 .rapat, .rapat2 {
     width: 20px;
     height: 130px;
@@ -55,18 +47,15 @@ body {
     background-color: rgb(52, 41, 32);
     background-image: linear-gradient(45deg, rgb(252, 201, 139), rgb(52, 41, 32));
 }
-
 .rapat {
     left: 0px;
-    transform: scaleX(-1); 
+    transform: scaleX(-1);
 }
-
 .front {
     height: 50px;
     clip-path: circle(17.2% at 32% 51%, 17.2% at 32% 51%);
     background-color: rgb(252, 201, 139);
 }
-
 .cellesesq, .cellesdre {
     width: 140px;
     height: 20px;
@@ -76,20 +65,16 @@ body {
     left: 60px;
     rotate: -5deg;
 }
-
 .cellesdre {
     left: 130px;
     rotate: 5deg;
 }
-
 .cellesdre:hover {
     top: -40px;
 }
-
 .cellesesq:hover {
     top: -40px;
 }
-
 .ullesq, .ulldret {
     width: 120px;
     height: 70px;
@@ -100,12 +85,10 @@ body {
     top: 35px;
     left: -5px;
 }
-
 .ulldret {
     top: -40px;
-    left: 70px; 
+    left: 70px;
 }
-
 .pupiladret, .pupilaesq {
     width: 25px;
     height: 25px;
@@ -116,12 +99,10 @@ body {
     top: -25px;
     left: -10px;
 }
-
 .pupilaesq {
     top: -25px;
     left: 140px;
 }
-
 .orellaesq, .orelladre {
     width: 70px;
     height: 120px;
@@ -132,7 +113,6 @@ body {
     top: 70px;
     z-index: -6;
 }
-
 .orelladre {
     background-image: linear-gradient(to right, rgb(252, 201, 139), rgb(255, 191, 113));
     left: 450px;
@@ -155,7 +135,6 @@ body {
     left: 145px;
     top: -90px;
 }
-
 .boca2 {
     width: 170px;
     height: 10px;
@@ -164,7 +143,6 @@ body {
     left: 146px;
     top: -133px;
 }
-
 .cos {
     width: 550px;
     height: 400px;
@@ -175,7 +153,6 @@ body {
     left: -35px;
     z-index: -6;
 }
-
 .cos2 {
     width: 230px;
     height: 230px;
@@ -184,7 +161,6 @@ body {
     top: -1780px;
     left: 120px;
 }
-
 .coll {
     width: 230px;
     height: 100px;
@@ -193,7 +169,6 @@ body {
     left: 120px;
     z-index: -5;
 }
-
 .fons2 {
     width: 1000px;
     height: 1300px;
