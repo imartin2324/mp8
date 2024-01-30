@@ -17,6 +17,49 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Responsive</title>
     <style>
+        /* disseny comú */
+
+        @font-face {
+            font-family: 'Fantasia';
+            src: url('fonts/Namecat.otf') format('eot'),
+                url('fonts/Namecat.woff2') format('woff2'),
+                url('fonts/Namecat.woff') format('woff'),
+                url('fonts/Namecat.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        body {
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: Fantasia;
+        }
+
+        .progres {
+            height: 1rem;
+            width: 100%;
+            background: limegreen;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            scale:0 1;
+            transform-origin: left;
+            animation: jacobo linear;
+            animation-timeline:scroll();
+            }
+
+        @keyframes jacobo{
+            to {
+                scale:1 1;
+            }
+            }
+
         /*disseny mobil vertical*/
             @media screen and (max-width:480px){
                 body {
@@ -38,10 +81,17 @@
     </style>
 </head>
 <body>
-    
+    <div class="progres"></div>
+    <h1>APP</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore temporibus facilis suscipit, unde quo aperiam animi, distinctio magni veritatis tempora, non esse reprehenderit sunt dicta sed similique libero. Ab.</p>
 </body>
 </html>
-
-
-412px  x   780px
-
