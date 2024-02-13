@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, ivory, pink);    
+    font-family: Helvetica, Arial, Sans-serif
+}
+
+.contenidor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.cuadre, .menu {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contenidor .cuadre {
+    width: 300px;
+}
+  
+.contenidor .menu {
+    width: 940px;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+}
+
+span{
+    color: gray;
+  }
+
+.imgcap{
+    height: 500px;
+    background-image: url(../img/ani/rider.png);
+    background-position: 0 -120px;
+    background-repeat: no-repeat;
+}
+
+.imgpetita{
+    height: 200px;
+}
+
+.text{
+    height: 40px;
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.img1{background-image: url(../img/small/small_pulp.jpg);
+}
+.img2{background-image: url(../img/small/small_taxi.jpg);
+}
+.img3{background-image: url(../img/small/small_bond.jpg);
+}
+.img4{background-image: url(../img/small/small_ghost.jpg);
+}
+.img5{background-image: url(../img/small/small_bean.jpg);
+}
+.img6{background-image: url(../img/small/small_back.jpg);
+}
+.img7{background-image: url(../img/small/small_rider.jpg);
+}
+.img8{background-image: url(../img/small/small_team.jpg);
+}
+.img9{background-image: url(../img/small/small_break.jpg);
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9{
+    background-size: cover;
+    opacity: 50%;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover,.img7:hover,.img8:hover,.img9:hover{
+    opacity: 100%;
+}
+
+.cotxe1, .cotxe9, .cotxe2, .cotxe3, .cotxe4, .cotxe5, .cotxe6, .cotxe7, .cotxe8{
+    transition: transform .3s;
+    filter:hue-rotate(180deg) saturate(100%);
+}
+.cotxe1:hover, .cotxe9:hover, .cotxe2:hover, .cotxe3:hover, .cotxe4:hover, .cotxe5:hover, .cotxe6:hover, .cotxe7:hover, .cotxe8:hover{
+    transform: rotate(360deg);
+    filter: hue-rotate(50deg) saturate(50%);
+}
+
+.peu {
+    height: 220px;
+}
+
+.logo {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo_carsandfilms.png);
+    background-position: center;
+}
